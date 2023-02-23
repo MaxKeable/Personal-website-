@@ -1,0 +1,88 @@
+* {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+body {
+    background-color: #E1EEDD;
+}
+
+.first-section {
+    background-color: #FEFBE9;
+}
+
+h1 {
+    position: absolute;
+    font-family: monospace;
+    font-size: 3.5em;
+    padding: 0 0 0 50px;
+    margin: 10px 0 0 10px;
+    color: #F0A04B;
+}
+
+
+nav {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+nav a {
+    color: #E1EEDD; 
+    font-size: 1.5em;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-top: 0px;
+    padding: 30px 20px 60px 20px;
+}
+
+nav a:hover {
+    background-color: #183A1D;
+}
+
+.img-me-div {
+    display: flex;
+    max-width: 21%;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.img-me {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.about-me-div h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 20%;
+    font-size: 2.5em;
+}
+
+.age {
+    color: #E1EEDD;
+
+    background-color: #183A1D;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.job {
+    color: #E1EEDD;
+
+    background-color: #183A1D;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.outdoors {
+    color: #E1EEDD;
+
+    background-color: #183A1D;
+    padding: 25px;
+    border-radius: 5%;
+}
