@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #E1EEDD;
+    background-color: #FEFBE9;
 }
 
 .first-section {
@@ -41,31 +41,24 @@ nav a:hover {
     background-color: #183A1D;
 }
 
-.img-me-div {
+.about-me {
     display: flex;
-    max-width: 21%;
-    justify-content: flex-start;
-    margin-left: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .img-me {
-    position: absolute;
-    display: flex;
     border-radius: 50%;
     margin-top: 30px;
 }
 
-.about-me-div h2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    max-width: 20%;
-    font-size: 2.5em;
+.about-me-p  {
+    font-size: 2.7em;
 }
 
 .age {
     color: #E1EEDD;
-
+    max-height: 25px;
     background-color: #183A1D;
     padding: 25px;
     border-radius: 5%;
@@ -73,7 +66,7 @@ nav a:hover {
 
 .job {
     color: #E1EEDD;
-
+    max-height: 25px;
     background-color: #183A1D;
     padding: 25px;
     border-radius: 5%;
@@ -81,8 +74,133 @@ nav a:hover {
 
 .outdoors {
     color: #E1EEDD;
-
+    max-height: 25px;
     background-color: #183A1D;
     padding: 25px;
     border-radius: 5%;
 }
+
+.passions {
+    color: #E1EEDD;
+    max-height: 25px;
+    background-color: #183A1D;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.line {
+    margin: 70px auto;
+    padding: 3px;
+    max-width: 70%;
+    background-color: #183A1D;
+    border-radius: 5px;
+}
+
+.heading-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.heading-links a {
+    background-color: #F0A04B;
+    color: #183A1D;
+    text-decoration: underline;
+    font-size: 2.5em;
+    margin-top: 0px;
+    padding: 70px 110px 70px 110px;
+    border-radius: 20px;
+}
+
+.previous-work-section {
+    background-color: #E1EEDD;
+}
+
+.previous-work-section h3 {
+    display: flex;
+    font-size: 2.5em;
+    color: #183A1D;
+}
+
+.liniar-motion-a {
+    display: flex;
+    color: #183A1D;
+    font-size: 1.5em;
+    margin: 20px auto 50px auto;
+}
+
+.snowy-a {
+    display: flex;
+    display: flex;
+    color: #183A1D;
+    font-size: 1.5em;
+    margin: 20px auto 50px auto;
+}
+
+.project-sleep-a {
+    display: flex;
+    display: flex;
+    color: #183A1D;
+    font-size: 1.5em;
+    margin: 20px auto 50px auto;
+}
+
+.education-section h2 {
+    display: flex;
+    font-size: 2.5em;
+    color: #183A1D;
+    }
+
+    .education-section p {
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        background-color: #E1EEDD;
+        padding: 50px;
+        font-size: 1.2em;
+    }
+
+.hobbies-section {
+    display: flex;
+    font-size: 2.5em;
+    color: #183A1D;
+}
+
+.hobbies-section h2 {
+    font-size: 1em;
+    color: #183A1D;
+}
+
+.hobbies-section p {
+    display: flex;
+    background-color: #F0A04B;
+    padding: 50px;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #183A1D;
+}
+
+footer p {
+    font-size: 2em;
+}
+
+footer a {
+    margin-top: 100px;
+    color: #F0A04B;
+    padding: 0 0 50px 0;
+    font-size: 1.3em;
+
+}
+
+@media only screen and (max-width: 1100px) {
+    h1 {
+      display: inline;
+      position: relative;
+    }
+  }
